@@ -1,2 +1,2 @@
-# MVC-MMI1
-Ce travail a été réalisé durant ma première année de BUT MMI. Le site web a pour thème mes centres d'intérêt.
+# IUT-BUT-MMI
+Vous trouverez tous les différents projets web que j'ai réalisé en BUT MMI.

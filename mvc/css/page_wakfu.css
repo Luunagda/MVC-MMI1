@@ -1,0 +1,86 @@
+.sectionwakfu{
+    color: antiquewhite;
+    padding-top:3%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-image: linear-gradient(120deg,#379eff 0%,#dc0a18 100%);
+    font-weight: bold;
+    font-size: x-large;
+    text-align: center;
+}
+.sectionwakfu div{
+    width: 50%;
+    justify-content: center;
+}
+.sectionwakfu img{
+    display: flex;
+    align-items: space-between;
+    width: 90%;
+}
+.wakfu img{
+    width: 100%;
+    height: 85vh;
+}
+
+.wakfu, .wakfu_1{
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 5%;
+    text-align: justify;
+}
+
+.wakfu_1 ul{
+    text-align: justify;
+    list-style:inside;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.wakfu section{
+    background-image: linear-gradient(120deg,#379eff 0%,#00ff8c 100%);
+    padding-top: 1px;
+    display: flex;
+    margin-bottom: 2%;
+}
+.wakfu section h1{
+    text-align: center;
+}
+.perso{
+    display: flex;
+    margin: 2%;
+    padding-bottom: 1%;
+}
+.wakfu section div img{
+    width: 80%;
+    height: 80%;
+    padding-right: 2%;
+}
+
+.wakfu_1 div{
+    background-image: linear-gradient(120deg,#379eff 0%,#00ff8c 100%);
+    padding: 2%;
+}
+.wakfu section div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 2%;
+
+}
+.sectionwakfu{
+    overflow: hidden;
+}
+.sectionwakfu div p, .sectionwakfu div h1{
+    animation: défilement 5s linear ;
+    transform :translateY(10px);
+}
+@keyframes défilement{
+    from{transform :translateY(420px);}
+    to{transform: translateY(10px);}
+}
+
+.image_wakfu{
+    border-radius: 10%;
+}

@@ -1,0 +1,171 @@
+
+.sectionmanga{
+    color: antiquewhite;
+    padding-top:3%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-image: linear-gradient(120deg,#379eff 0%,#dc0a18 100%);
+    font-weight: bold;
+    font-size: x-large;
+    text-align: center;
+
+}
+
+.sectionmanga img{
+    width: 100%;
+    height: 85vh;
+}
+
+.contenu{
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+ 
+.manga{
+    display: flex;
+    padding-bottom: 1%;
+    margin-bottom: 2%;
+    background-image: linear-gradient(120deg,#379eff 0%,#00ff8c 100%);
+    padding: 2%;
+    text-align: justify;
+}
+.manga img{
+    width: 30%;
+    height: 30%;
+    padding-right: 6%;
+}
+.manga div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.manga div p{
+    width: 90%;
+}
+
+.categorie1 img{
+    width: 60%;
+}
+.categorie1 {
+    color: black;
+    width: 300px;
+    height: 100%;
+    text-align: center;
+    margin:10px;
+    background-image: linear-gradient(120deg,#379eff 0%,#00ff8c 100%);
+    color: black;
+    padding-top: 1%;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.espace {
+    margin-top: 5%;
+    background-color: antiquewhite;
+}
+
+
+
+
+
+.aligne{
+    display: flex;
+    justify-content: center;
+}
+.custom-btn {
+    border-radius: 5px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    font-size: large;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+    background: rgb(0,172,238);
+    background: linear-gradient(0deg, #379eff 0%, #00ff8c 100%);
+    line-height: 42px;
+    padding: 0;
+    border: none;
+    width: 400px;  
+    margin: 0px 0px 50px 0px;
+    box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5), 7px 7px 20px 0px rgba(0,0,0,.1), 4px 4px 5px 0px rgba(0,0,0,.1);
+}
+.custom-btn a{
+    text-decoration: none;
+    color: black;
+}
+.btn a {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.btn:before,
+.btn:after {
+    position: absolute;
+    content: "";
+    right: 0;
+    top: 0;
+    background: #00ff8c;
+    transition: all 0.3s ease;
+}
+.btn:before {
+    height: 0%;
+    width: 2px;
+}
+.btn:after {
+    width: 0%;
+    height: 2px;
+}
+.btn:hover{
+    background: transparent;
+    box-shadow: none;
+}
+.btn:hover:before {
+    height: 100%;
+}
+.btn:hover:after {
+    width: 100%;
+}
+.btn a:hover{
+    color: #379eff;
+}
+.btn a:before,
+.btn a:after {
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: 0;
+    background: #00ff8c;
+    transition: all 0.3s ease;
+}
+.btn a:before {
+    width: 2px;
+    height: 0%;
+}
+.btn a:after {
+    width: 0%;
+    height: 2px;
+}
+.btn a:hover:before {
+    height: 100%;
+}
+.btn a:hover:after {
+    width: 100%;
+}
+
+.sectionmanga{
+    overflow: hidden;
+}
+.sectionmanga div p, .sectionmanga div h1{
+    animation: défilement 5s linear ;
+    transform :translateY(10px);
+}
+@keyframes défilement{
+    from{transform :translateY(420px);}
+    to{transform: translateY(10px);}
+}
